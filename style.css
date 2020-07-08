@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: red !important;
+    height: 10vh;
+}
+
+.nav-brand {
+    margin-left: 14px;
+}
+
+.navbar-nav li {
+    margin-top: 34px;
+}
+
+.navbar-nav li a {
+    display: inline;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.7);
+}
