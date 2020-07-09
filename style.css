@@ -1,35 +1,202 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.home-hero {
-  background-image: url(heropic.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 375px;
-  height: 224px;
-  left: 0px;
-  top: 44px;
-}
 
-.navbar {
-}
+/*NAVIGATION STYLES*/
 
-.nav-brand {
-  margin-left: 14px;
+.navbar {}
+
+.navbar-brand {
+    margin-left: 14px;
+    background-color: #5df199;
+    border-radius: 8.64286px;
+    padding: 27px;
+    margin-top: 20px;
 }
 
 .navbar-nav li {
-  margin-top: 34px;
+    margin-top: 30px;
+    opacity: 10;
 }
 
 .navbar-nav li a {
-  display: inline;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  color: rgba(255, 255, 255, 0.7);
+    display: inline;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #ffffff !important;
+}
+
+.navbar-nav li a:hover {
+    color: #5df199 !important;
+    transition: ease-in-out 450ms;
+}
+
+
+/*HOME HERO STYLE*/
+
+.home-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(heropic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.hero-message {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+    color: #ffffff;
+    width: 55vw;
+    height: 122px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    margin-left: 22vw;
+    margin-top: 18vh;
+    opacity: 1;
+}
+
+.book-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+button {
+    background: #5df199;
+    border-radius: 7px;
+    width: 250px;
+    height: 55px;
+    border: none;
+}
+
+.btn1 a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: rgba(33, 36, 41, 0.7);
+    text-decoration: none;
+}
+
+
+/*GALLERY SECTION STYLES*/
+
+.gallery {
+    margin-top: 50px;
+}
+
+.gallery-head {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #212429;
+    padding: 30px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a {
+    justify-content: center;
+    text-decoration: none;
+    padding: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #212429;
+}
+
+
+/*ABOUT ME SECTION*/
+
+.about-me {
+    padding-top: 25px;
+    height: 432px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(aboutpic.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-cont {
+    margin: 15vh;
+}
+
+.abt-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    color: #ffffff;
+}
+
+.para {
+    text-align: center;
+    padding: 0 5vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+.field {
+    border: 1.7px solid #cecece;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 30vw;
+    height: 8vh;
+    margin-top: 40px;
+}
+
+.btn2 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 28px;
+    width: 290px;
+}
+
+.figCaption {
+    margin-left: 5vw;
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.bottom {
+    height: 50vh;
+    background-color: #1d1d1d;
+    margin-top: 70px;
+}
+
+.bott-cont {
+    padding-top: 13vh;
 }
